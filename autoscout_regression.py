@@ -44,7 +44,7 @@ for idx, make in enumerate(makes['make'], start=1):
 
 make_choice = int(input("Enter the number corresponding to the brand: ")) - 1
 selected_make = makes['make'].iloc[make_choice]
-8
+
 # Step 2: Display all models for the selected make and prompt user to select a type (or all)
 models = load_models_from_db(selected_make)
 print(f"\nSelect a model for {selected_make} by typing the corresponding number, or type 0 for all models:")

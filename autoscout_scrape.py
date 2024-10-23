@@ -89,7 +89,7 @@ def save_to_db(car_list, db_name="cars.db"):
 
     print(f"Data written to {db_name}")
 
-brands = ["tesla/model-y", "tesla/model-3", 'tesla/model-x', "tesla/model-s"]
+brands = []
 
 
 def main(brands):
